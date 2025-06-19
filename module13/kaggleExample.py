@@ -16,4 +16,5 @@ null_count=null_mask.sum()
 print(null_count)
 
 #removing dupes
+df.drop_duplicates(keep="first",inplace=True)
 
